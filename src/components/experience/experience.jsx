@@ -1,6 +1,6 @@
 import React from "react";
 
 export const Experience = () => {
-  return <div>experience</div>;
+  return <section id="experience">Experience</section>;
 };
 export default Experience;
