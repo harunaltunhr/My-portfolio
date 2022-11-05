@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import MYPHOTO from "../../assests/MYPHOTO.jpeg";
+import MYPHOTO from "../../assests/myphoto2.jpeg";
 import { FaAward } from "react-icons/fa";
 export const About = () => {
   return (
@@ -18,24 +18,33 @@ export const About = () => {
           <div className="about__cards">
             <article className="about__card">
               <FaAward className="about__icon" /> <h5>Experience</h5>
-              <small>3 Years Working</small>
+              <small>9 Months Bootcamp</small>
             </article>
 
             <article className="about__card">
               <FaAward className="about__icon" /> <h5>Experience</h5>
-              <small>3 Years Working</small>
+              <small>Completed 10+ projects and 20+ online courses</small>
             </article>
 
             <article className="about__card">
               <FaAward className="about__icon" /> <h5>Experience</h5>
-              <small>3 Years Working</small>
+              <small>Worked alone and with a team of more than 20 people</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Non et
-            inventore nemo repellendus dignissimos. Excepturi, mollitia natus
-            rem iure ipsam ea assumenda quod atque perferendis inventore quos!
-            Aliquid, est aperiam.
+            After working 7 years in HR (mostly in IT rectuitment) I decided to
+            change my route to coding. After completing the bootcamp in{" "}
+            <a
+              href="https://hackyourfuture.be"
+              target="_blank"
+              rel="noreferrer"
+            >
+              HackYourFuture
+            </a>
+            , I started my passion for coding as a web developer. While learning
+            new technologies, I also had the opportunity to develop myself with
+            projects. It is always my greatest ideal to make life easier and to
+            do useful work for people.
           </p>
 
           <a href="#contact" className="btn btn-primary">

@@ -5,13 +5,25 @@ import { FaTwitter } from "react-icons/fa";
 const SocialMedias = () => {
   return (
     <div className="social__medias">
-      <a href="linkedin.com" target="blank">
+      <a
+        href="https://www.linkedin.com/in/harunaltun/"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaLinkedin />
       </a>
-      <a href="github.com" target="blank">
+      <a
+        href="https://github.com/harunaltunhr"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaGithub />
       </a>
-      <a href="twitter.com" target="blank">
+      <a
+        href="https://twitter.com/HarunAltunhr"
+        target="_blank"
+        rel="noreferrer"
+      >
         <FaTwitter />
       </a>
     </div>

@@ -4,6 +4,12 @@ header{
     overflow:  hidden;
 }
 
+.header__logo {  
+    width: 20rem;
+text-align: center;
+margin: auto;
+}
+
 .container {
 text-align:  center;
 height: 100%;
@@ -18,7 +24,8 @@ position: relative;
 
 .scroll__down {
     
-    display: flex;
+   position: fixed;
+    display: block;
     gap: 1.2rem;
     justify-content: center;
 }
@@ -63,12 +70,7 @@ position: relative;
     font-size: 0.9rem;
 }
 
-@media screen and (max-width:1024px ){
-header{
-    height: 68vh;
-}
 
-}
 
 
 @media screen and (max-width:600px ){

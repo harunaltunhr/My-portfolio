@@ -1,15 +1,19 @@
 import React from "react";
 import "./header.css";
-import CV from "../../assests/Harun Altun CV.pdf";
-import MYPHOTO from "../../assests/MYPHOTO.jpeg";
+import CV from "../../assests/Harun_Altun_Web-Developer-CV.pdf";
+import MYPHOTO from "../../assests/MYPHOTO.v3.png";
 import SocialMedias from "./SocialMedias";
+import Logo from "../../assests/Logo-removebg.png";
 export const Header = () => {
   return (
     <header>
       <div className="container header__container">
-        <h5>Hello I'm</h5>
-        <h1>Harun Altun</h1>
-        <h5 className="text-light">Web Developer</h5>
+        <h2>Hello I'm</h2>
+        <div className="header__logo">
+          <img src={Logo} alt="mylogo" />
+        </div>
+
+        <h4 className="text-light">Web Developer</h4>
         <a href={CV} download className="btn head-btn">
           Download CV
         </a>

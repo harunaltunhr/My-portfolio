@@ -33,7 +33,7 @@ const Contact = () => {
             <h4>Email</h4>
             <h5>altunhr@gmail.com</h5>
             <a href="mailto:altunhr@gmail.com" rel="noreferrer" target="_blank">
-              Send a massage
+              Send a message
             </a>
           </article>
           <article className="contact__option">
@@ -45,7 +45,7 @@ const Contact = () => {
               rel="noreferrer"
               target="_blank"
             >
-              Send a massage
+              Send a message
             </a>
           </article>
           <article className="contact__option">
@@ -57,7 +57,7 @@ const Contact = () => {
               target="_blank"
               rel="noreferrer"
             >
-              Send a massage
+              Send a message
             </a>
           </article>
         </div>

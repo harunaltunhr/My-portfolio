@@ -5,6 +5,7 @@ import { BiUserCircle } from "react-icons/bi";
 import { GiAchievement } from "react-icons/gi";
 import { FiPhoneCall } from "react-icons/fi";
 import { useState } from "react";
+import { MdOutlineWork } from "react-icons/md";
 const Nav = () => {
   const [activeBtn, setActiveBtn] = useState("#");
   return (
@@ -29,6 +30,13 @@ const Nav = () => {
         className={activeBtn === "#experience" ? "active" : ""}
       >
         <GiAchievement />
+      </a>
+      <a
+        href="#portfolio"
+        onClick={() => setActiveBtn("#portfolio")}
+        className={activeBtn === "#portfolio" ? "active" : ""}
+      >
+        <MdOutlineWork />
       </a>
       <a
         href="#contact"

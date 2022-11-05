@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio",
+  "homepage": "https://altunhr.be",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
