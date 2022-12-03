@@ -1,5 +1,5 @@
 import React from "react";
-import CV from "../../assests/Harun_Altun_Web-Developer-CV.pdf";
+import CV from "../../assests/Harun Altun-CV Eng.pdf";
 import MYPHOTO from "../../assests/MYPHOTO.v3.webp";
 import SocialMedias from "./SocialMedias";
 import Logo from "../../assests/Logo-removebg.png";
