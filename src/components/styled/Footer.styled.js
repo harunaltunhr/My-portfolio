@@ -1,6 +1,6 @@
 import styled from "styled-components";
 export const StyledContainerfooter = styled.footer`
-background: var(--color-primary);
+background: var(--color-bg-variant);
 padding: 3rem 0;
 text-align: center;
 font-size: 0.9rem;
@@ -8,11 +8,11 @@ margin-top: 7rem;
 `
 
 export const StyledContainera = styled.a`
-color: var(--color-bg);
+color: var(--color-light);
 `
 export const Styledcopyright = styled.div`
 margin-bottom: 4rem;
-color: var(--color-bg);
+color: var(--color--light);
 `
 
 export const StyledContainerlogo = styled.div`
@@ -42,19 +42,5 @@ margin-bottom: 4rem;
 @media screen and (max-width:600px ){
       margin-bottom: 2.6rem;
     }
-`
-
-export const StyledContainersocialsa = styled.a`
-background: var(--color-bg);
-color: var(--color-white);
-padding: 0.8rem;
-border-radius: 0.7rem;
-display: flex;
-border: 1px solid transparent;
-&:hover{
-    background: transparent;
-    color: var(--color-bg);
-    border-color: var(--color-bg);
-}
 `
 

@@ -1,6 +1,6 @@
 import React from "react";
 
-import MYPHOTO from "../../assests/myphoto2.jpeg";
+import MYPHOTO from "../../assests/myphoto2.webp";
 import { FaAward } from "react-icons/fa";
 import {
   StyledAboutContainer,
@@ -29,7 +29,7 @@ export const About = () => {
               <StyledAbouticon>
                 <FaAward />
               </StyledAbouticon>
-              <h5>Experience</h5>
+
               <small>9 Months Bootcamp</small>
             </StyledAboutcard>
 
@@ -37,7 +37,7 @@ export const About = () => {
               <StyledAbouticon>
                 <FaAward />{" "}
               </StyledAbouticon>
-              <h5>Experience</h5>
+
               <small>Completed 10+ projects and 20+ online courses</small>
             </StyledAboutcard>
 
@@ -45,7 +45,6 @@ export const About = () => {
               <StyledAbouticon>
                 <FaAward />{" "}
               </StyledAbouticon>{" "}
-              <h5>Experience</h5>
               <small>Worked alone and with a team of more than 20 people</small>
             </StyledAboutcard>
           </StyledAboutcards>

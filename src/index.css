@@ -1,5 +1,5 @@
 
-@import url("//cloud.typenetwork.com/projects/6875/fontface.css/");
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -36,14 +36,14 @@ html {
 }
 body {
 
-    font-family: "Firdevs Reg";
+font-family:  'Fredoka One', cursive;
     font-display: swap;
     font-style: normal;
     font-weight: normal;
     background: var(--color-bg);
 color: var(--color-white) ;
     line-height: 1.7; 
- /* background-image: url('../src/assests/60286.jpg'); */
+
 }
 
 .container {

@@ -1,19 +1,18 @@
 import styled from "styled-components";
 
 export const ExperienceContainer = styled.div`
-
-grid-template-columns: 1fr 1fr;
-gap: 2rem;
 width: var(--container-width-lg);
-margin: 0 auto;
-@media screen and(max-width:1024px ){
-        width: var(--container-width-md);
-    }
-@media screen and(max-width:600px ){  
-            width: var(--container-width-ms);
-    }
+width: 100%;
+display: grid;
+justify-items:center;
+grid-template-columns: 50% 50%;
 
+@media screen and (max-width:1024px ){
+grid-template-columns: 1fr;
 
+@media screen and (max-width:600px ){
+width: var(--container-width-sm);
+};
 `
 export const ExperienceContainerdiv = styled.div`
 background-color: var(--color-bg-variant);
@@ -47,7 +46,7 @@ display: grid;
    grid-template-columns: 1fr 1fr;
    row-gap: 2rem; 
    @media screen and (max-width:1024px ){
-       padding: 1rem;
+       padding: 2rem;
     }
 
 
@@ -55,4 +54,6 @@ display: grid;
 export const Experiencedetails = styled.article`
 display: flex;
 gap: 1rem;
+margin: 0.5rem;
+
 `

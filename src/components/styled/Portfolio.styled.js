@@ -19,7 +19,7 @@ display: grid;
             gap: 1rem
         };
 `
-export const Styledportfolioitem = styled.article`
+export const Styledportfolioitem = styled.div`
 background: var(--color-bg-variant);
 padding: 1.2rem;
 border-radius: 2rem;

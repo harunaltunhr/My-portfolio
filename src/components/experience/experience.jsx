@@ -15,7 +15,6 @@ export const Experience = () => {
 
       <ExperienceContainer>
         <ExperienceContainerdiv>
-          <StyledH3>Frontend Development</StyledH3>
           <Experiencecontent>
             <Experiencedetails>
               <BsPatchCheckFill className="experinece__details-icon" />
@@ -32,32 +31,19 @@ export const Experience = () => {
             <Experiencedetails>
               <BsPatchCheckFill className="experinece__details-icon" />
               <div>
+                <h4>Resp. Design</h4>
+              </div>
+            </Experiencedetails>
+            <Experiencedetails>
+              <BsPatchCheckFill className="experinece__details-icon" />
+              <div>
                 <h4>JavaScript</h4>
-              </div>
-            </Experiencedetails>
-            <Experiencedetails>
-              <BsPatchCheckFill className="experinece__details-icon" />
-              <div>
-                <h4>npm</h4>
-              </div>
-            </Experiencedetails>
-            <Experiencedetails>
-              <BsPatchCheckFill className="experinece__details-icon" />
-              <div>
-                <h4>SQL</h4>
-              </div>
-            </Experiencedetails>
-            <Experiencedetails>
-              <BsPatchCheckFill className="experinece__details-icon" />
-              <div>
-                <h4>Wordpress</h4>
               </div>
             </Experiencedetails>
           </Experiencecontent>
         </ExperienceContainerdiv>
 
         <ExperienceContainerdiv>
-          <StyledH3>Frameworks/Library</StyledH3>
           <Experiencecontent>
             <Experiencedetails>
               <BsPatchCheckFill className="experinece__details-icon" />
@@ -80,13 +66,64 @@ export const Experience = () => {
             <Experiencedetails>
               <BsPatchCheckFill className="experinece__details-icon" />
               <div>
-                <h4>Node.js</h4>
+                <h4>TailWind</h4>
+              </div>
+            </Experiencedetails>
+          </Experiencecontent>
+        </ExperienceContainerdiv>
+        <ExperienceContainerdiv>
+          <Experiencecontent>
+            <Experiencedetails>
+              <BsPatchCheckFill className="experinece__details-icon" />
+              <div>
+                <h4>Node.Js</h4>
               </div>
             </Experiencedetails>
             <Experiencedetails>
               <BsPatchCheckFill className="experinece__details-icon" />
               <div>
-                <h4>jquery</h4>
+                <h4>Npm</h4>
+              </div>
+            </Experiencedetails>
+            <Experiencedetails>
+              <BsPatchCheckFill className="experinece__details-icon" />
+              <div>
+                <h4>Git/Github</h4>
+              </div>
+            </Experiencedetails>
+            <Experiencedetails>
+              <BsPatchCheckFill className="experinece__details-icon" />
+              <div>
+                <h4>Jquery</h4>
+              </div>
+            </Experiencedetails>
+          </Experiencecontent>
+        </ExperienceContainerdiv>
+
+        <ExperienceContainerdiv>
+          <Experiencecontent>
+            <Experiencedetails>
+              <BsPatchCheckFill className="experinece__details-icon" />
+              <div>
+                <h4>SQL</h4>
+              </div>
+            </Experiencedetails>
+            <Experiencedetails>
+              <BsPatchCheckFill className="experinece__details-icon" />
+              <div>
+                <h4>MongoDB</h4>
+              </div>
+            </Experiencedetails>
+            <Experiencedetails>
+              <BsPatchCheckFill className="experinece__details-icon" />
+              <div>
+                <h4>Agile</h4>
+              </div>
+            </Experiencedetails>
+            <Experiencedetails>
+              <BsPatchCheckFill className="experinece__details-icon" />
+              <div>
+                <h4>Wordpress</h4>
               </div>
             </Experiencedetails>
           </Experiencecontent>

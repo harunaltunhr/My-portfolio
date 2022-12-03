@@ -2,7 +2,7 @@ import React from "react";
 
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import Logo from "../../assests/Logo-removebg.png";
 import {
   StyledContainerfooter,
@@ -37,8 +37,12 @@ const Footer = () => {
         </li>
       </StyledContainerul>
       <StyledContainersocials>
-        <a href="https://facebook.com" target="_blank" rel="noreferrer">
-          <FaFacebook />
+        <a
+          href="https://www.linkedin.com/in/harunaltun/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedin />
         </a>
         <a
           href="https://github.com/harunaltunhr"
@@ -57,24 +61,6 @@ const Footer = () => {
       </StyledContainersocials>
 
       <Styledcopyright>
-        <p>
-          <StyledContainera
-            href="https://fonts.adobe.com/designers/fevzi-yazici"
-            target="_blank"
-            rel="noreferrer"
-          >
-            This excellent font
-          </StyledContainera>{" "}
-          belongs to{" "}
-          <StyledContainera
-            href="https://kernsandcairns.typenetwork.com/news/article/letters-from-prison-fevzi-yazici-firdevs"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Fevzi Yazici
-          </StyledContainera>
-          , who was imprisoned in Turkey for his thoughts.
-        </p>
         <small>&copy; Harun Altun 2022. All rights reserved.</small>
       </Styledcopyright>
     </StyledContainerfooter>

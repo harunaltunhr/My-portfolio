@@ -32,7 +32,8 @@ transition: var(--transition);
 `
 export const StyledLogo = styled.img`
 display: block;
-width: 100%;
+
+height: auto;
 object-fit: cover;
 width: 20rem;
 text-align: center;
