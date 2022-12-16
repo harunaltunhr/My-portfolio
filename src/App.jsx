@@ -9,7 +9,7 @@ import Portfolio from "./components/portfolio/portfolio";
 
 const App = () => {
   return (
-    <>
+    <React.StrictMode>
       <Header />
       <Nav />
       <About />
@@ -17,7 +17,7 @@ const App = () => {
       <Portfolio />
       <Contact />
       <Footer />
-    </>
+    </React.StrictMode>
   );
 };
 

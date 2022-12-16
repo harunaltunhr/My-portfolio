@@ -77,7 +77,7 @@ const data = [
     image: Trello_gif,
     title:
       "A project management tool based on trello (Currently under development)",
-    github: "https://github.com/harunaltunhr/todo",
+    github: "https://github.com/it-for-us/todo",
     link: function () {
       if (this.github !== "") {
         var sour = "btn";
@@ -89,7 +89,7 @@ const data = [
       return sour;
     },
 
-    demo: "https://trello-app-km.netlify.app/",
+    demo: "https://github.com/it-for-us/todo",
   },
   {
     id: 5,

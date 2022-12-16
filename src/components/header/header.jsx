@@ -11,6 +11,9 @@ import {
   StyledContainerheader,
 } from "../styled/Header.styled.js";
 import { StyledButton, StyledButtonprimary } from "../styled/Button.styled";
+import { I18nextProvider } from "react-i18next";
+import i18next from "i18next";
+import { useTranslation } from "react-i18next";
 
 export const Header = () => {
   return (
