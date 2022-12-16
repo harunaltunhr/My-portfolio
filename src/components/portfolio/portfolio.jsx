@@ -1,11 +1,18 @@
 import React from "react";
-import "./portfolio.css";
+
 import BelcikadaHayat_gif from "../../assests/BelcikadaHayat_gif.gif";
 import Zatzon_gif from "../../assests/Zatzon_gif.gif";
 import HearMyStory_gif from "../../assests/HearMyStory_gif.gif";
 import Trello_gif from "../../assests/Trello_gif.gif";
 import Quiz_gif from "../../assests/Quiz_gif.gif";
-
+import {
+  Styledpcontainerportfolio,
+  Styledportfolioitem,
+  Styledportfolioitemimage,
+  Styledportfolioitemcta,
+  Styledportfolioitemheader,
+} from "../styled/Portfolio.styled";
+import { StyledButton, StyledButtonprimary } from "../styled/Button.styled";
 const data = [
   {
     id: 1,
@@ -116,26 +123,30 @@ const Portfolio = () => {
       <h5>My Projects</h5>
       <h2>Portfolio</h2>
 
-      <div className="container portfolio__container">
+      <Styledpcontainerportfolio>
         {data.map(({ id, image, title, github, demo, source }) => {
           return (
-            <article key={id} className="portfolio__item">
-              <div className="portfolio__item-image">
+            <Styledportfolioitem key={id}>
+              <Styledportfolioitemimage>
                 <img src={image} alt={title} />
-              </div>
-              <h3>{title}</h3>
-              <div className="portfolio__item-cta">
-                <a href={github} className={source} target="blank">
+              </Styledportfolioitemimage>
+              <Styledportfolioitemheader>{title}</Styledportfolioitemheader>
+              <Styledportfolioitemcta>
+                <StyledButton href={github} className={source} target="blank">
                   Github
-                </a>
-                <a href={demo} className="btn btn-primary" target="blank">
+                </StyledButton>
+                <StyledButtonprimary
+                  href={demo}
+                  className="btn btn-primary"
+                  target="blank"
+                >
                   Live Page
-                </a>
-              </div>
-            </article>
+                </StyledButtonprimary>
+              </Styledportfolioitemcta>
+            </Styledportfolioitem>
           );
         })}
-      </div>
+      </Styledpcontainerportfolio>
     </section>
   );
 };

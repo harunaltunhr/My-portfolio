@@ -1,36 +1,48 @@
 import React from "react";
-import "./footer.css";
+
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import Logo from "../../assests/Logo-removebg.png";
+import {
+  StyledContainerfooter,
+  StyledContainera,
+  StyledContainerlogo,
+  StyledContainerul,
+  StyledContainersocials,
+  Styledcopyright,
+} from "../styled/Footer.styled";
 const Footer = () => {
   return (
-    <footer>
-      <div className="footer__logo">
+    <StyledContainerfooter>
+      <StyledContainerlogo>
         <img src={Logo} className="footer__logo" alt="logo" />
-      </div>
+      </StyledContainerlogo>
 
-      <ul className="permalinks">
+      <StyledContainerul>
         <li>
-          <a href="#">Home</a>
+          <StyledContainera href="#">Home</StyledContainera>
         </li>
         <li>
-          <a href="#about">About</a>
+          <StyledContainera href="#about">About</StyledContainera>
         </li>
         <li>
-          <a href="#experience">Experience</a>
+          <StyledContainera href="#experience">Experience</StyledContainera>
         </li>
         <li>
-          <a href="#portfolio">Portfolio</a>
+          <StyledContainera href="#portfolio">Portfolio</StyledContainera>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <StyledContainera href="#contact">Contact</StyledContainera>
         </li>
-      </ul>
-      <div className="footer__socials">
-        <a href="https://facebook.com" target="_blank" rel="noreferrer">
-          <FaFacebook />
+      </StyledContainerul>
+      <StyledContainersocials>
+        <a
+          href="https://www.linkedin.com/in/harunaltun/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <FaLinkedin />
         </a>
         <a
           href="https://github.com/harunaltunhr"
@@ -46,30 +58,12 @@ const Footer = () => {
         >
           <FaTwitter />
         </a>
-      </div>
+      </StyledContainersocials>
 
-      <div className="footer__copyright">
-        <p>
-          <a
-            href="https://fonts.adobe.com/designers/fevzi-yazici"
-            target="_blank"
-            rel="noreferrer"
-          >
-            This excellent font
-          </a>{" "}
-          belongs to{" "}
-          <a
-            href="https://kernsandcairns.typenetwork.com/news/article/letters-from-prison-fevzi-yazici-firdevs"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Fevzi Yazici
-          </a>
-          , who was imprisoned in Turkey for his thoughts.
-        </p>
+      <Styledcopyright>
         <small>&copy; Harun Altun 2022. All rights reserved.</small>
-      </div>
-    </footer>
+      </Styledcopyright>
+    </StyledContainerfooter>
   );
 };
 

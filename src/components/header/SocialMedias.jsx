@@ -2,9 +2,10 @@ import React from "react";
 import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
+import { StyledSocialMedias } from "../styled/Header.styled.js";
 const SocialMedias = () => {
   return (
-    <div className="social__medias">
+    <StyledSocialMedias>
       <a
         href="https://www.linkedin.com/in/harunaltun/"
         target="_blank"
@@ -26,7 +27,7 @@ const SocialMedias = () => {
       >
         <FaTwitter />
       </a>
-    </div>
+    </StyledSocialMedias>
   );
 };
 
